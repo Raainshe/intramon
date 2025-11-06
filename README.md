@@ -79,3 +79,10 @@ intramon/
 ├── frontend/         # Vue.js + TypeScript + Vite
 └── docker-compose.yml
 ```
+
+Features yet to be implemented:
+-players get x crystals per hour of logtime in intra (doesntneccesarily have to be per hour, it can also increase in franctions of an hour like if you get 10 crystals per hour, you get one after 1 minutes)
+-monsters can be evolved using gems, which will also give them a different appearance, what monster evolves into what other monster is predefined. 
+-players have a profile section, that displays coalation, level (from intra) and collected cards, it will also show an avatar (current plan is to select from a limited amount of presets)
+-players can set themselfes a "buddy" monster that will be displayed next to their profile and avatar
+-players can view other players profiles, avatars and their buddies
